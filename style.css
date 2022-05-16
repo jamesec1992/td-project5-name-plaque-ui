@@ -51,9 +51,44 @@ body p{
 }*/
 
 .name{
-    width: 27%;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 5px 10px;
+    width: 22%;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 0 0 15px white, 0 0 0 30px rgb(209, 136, 209);;
+    margin: 47px 30px;
+}
+
+.container{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.btn1{
+    color: teal;
+    font-size: 1rem;
+    margin: 0 -2rem 0 0;
+    padding: 0.5rem;
+}
+
+.btn1 span{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.btn2{
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 0.5rem;
+    margin-top:0.4rem;
 }
 
