@@ -3,15 +3,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-html{
-    width: 100%;
-}
 
 html, 
 body{
     padding: 0;
     margin: 0;
-    min-height: 100vh;
+    max-height: 100vh;
     max-width: 100vw;
 }
 
@@ -19,7 +16,7 @@ body{
     background-color: gray;
     color: #ffff;
     padding-top: 4rem;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 body p{
@@ -92,3 +89,9 @@ body p{
     margin-top:0.4rem;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 20%;
+}
