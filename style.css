@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Courier;
 }
 
 
@@ -55,6 +55,7 @@ body p{
     padding: 1rem;
     box-shadow: 0 0 0 15px white, 0 0 0 30px rgb(209, 136, 209);;
     margin: 47px 30px;
+    display: inline-block;
 }
 
 .container{
